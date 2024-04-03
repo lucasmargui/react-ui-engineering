@@ -9,6 +9,13 @@ const links = [
   { name: 'Memorization', href: '/ui_engineering/web_performance/memorization_components'},
   { name: 'Minification', href: '/ui_engineering/web_performance/minification_concatenation'},
   { name: 'ServerSide', href: '/ui_engineering/web_performance/server_side'},
+
+
+  { name: 'FetchApi', href: '/ui_engineering/browser_api/fetch_api'},
+  { name: 'GeoLocation', href: '/ui_engineering/browser_api/geolocation_api'},
+  { name: 'IndexedDb', href: '/ui_engineering/browser_api/indexed_db'},
+  { name: 'SessionStorage', href: '/ui_engineering/browser_api/session_storage'},
+  { name: 'WebStorage', href: '/ui_engineering/browser_api/web_storage'},
 ];
 
 export default function NavLinks() {

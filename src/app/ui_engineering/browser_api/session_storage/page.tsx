@@ -1,9 +1,19 @@
+"use client"
+
 // components/StorageExample.tsx
-import React, { useState, ChangeEvent } from 'react';
+import React, { useState, ChangeEvent, useEffect } from 'react';
 
 const StorageExample = () => {
   const [localStorageValue, setLocalStorageValue] = useState('');
   const [sessionStorageValue, setSessionStorageValue] = useState('');
+
+  useEffect(() => {
+    // Retrieve values from localStorage and sessionStorage on component mount
+    const localStorageItem = localStorage.getItem('localStorageItem');
+    const sessionStorageItem = sessionStorage.getItem('sessionStorageItem');
+    if (localStorageItem) setLocalStorageValue(localStorageItem);
+    if (sessionStorageItem) setSessionStorageValue(sessionStorageItem);
+  }, []);
 
   const handleLocalStorageChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { value } = e.target;
@@ -32,6 +42,10 @@ const StorageExample = () => {
         value={sessionStorageValue}
         onChange={handleSessionStorageChange}
       />
+
+      {/* Display values in h1 elements */}
+      <h1>LocalStorage Value: {localStorageValue}</h1>
+      <h1>SessionStorage Value: {sessionStorageValue}</h1>
     </div>
   );
 };
