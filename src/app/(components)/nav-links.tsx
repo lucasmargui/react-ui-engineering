@@ -4,11 +4,11 @@
 import Link from 'next/link';
 
 const links = [
-  { name: 'CodeSplitting', href: '/ui_engineering/code_splitting'},
-  { name: 'LazyLoading', href: '/ui_engineering/lazy_loading_image'},
-  { name: 'Memorization', href: '/ui_engineering/memorization_components'},
-  { name: 'Minification', href: '/ui_engineering/minification_concatenation'},
-  { name: 'ServerSide', href: '/ui_engineering/server_side'},
+  { name: 'CodeSplitting', href: '/ui_engineering/web_performance/code_splitting'},
+  { name: 'LazyLoading', href: '/ui_engineering/web_performance/lazy_loading_image'},
+  { name: 'Memorization', href: '/ui_engineering/web_performance/memorization_components'},
+  { name: 'Minification', href: '/ui_engineering/web_performance/minification_concatenation'},
+  { name: 'ServerSide', href: '/ui_engineering/web_performance/server_side'},
 ];
 
 export default function NavLinks() {
