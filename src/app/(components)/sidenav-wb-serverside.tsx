@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import NavLinks from '@/app/(components)/nav-links-serverside';
+import NavLinks from '@/app/(components)/nav-links-wb-serverside';
 
 
 export default function SideNav() {

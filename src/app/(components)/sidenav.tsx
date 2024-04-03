@@ -1,16 +1,27 @@
 import Link from 'next/link';
-import NavLinks from '@/app/(components)/nav-links';
+import NavLinksAdvancedJavascript from '@/app/(components)/nav-links-advanced-javascript';
+import NavLinksBrowserApi from '@/app/(components)/nav-links-browser-api';
+import NavLinksLifeCycle from '@/app/(components)/nav-links-lifecycle';
+import NavLinksWebPerformance from '@/app/(components)/nav-links-web_performance';
+
 
 
 export default function SideNav() {
   return (
-    <div className="flex h-full flex-col px-3 py-4 md:px-2">
+    <div className="flex flex-col w-64 bg-gray-800 h-full">
+    <div className="p-4 text-white text-xl font-bold">SideNav</div>
+    <div className="flex flex-col flex-1 overflow-y-auto">
+      <NavLinksWebPerformance />
+      <div className="h-px bg-gray-600 opacity-50 my-1 w-full"></div>
+      <NavLinksAdvancedJavascript />
+      <div className="h-px bg-gray-600 opacity-50 my-1 w-full"></div>
+      <NavLinksBrowserApi />
+      <div className="h-px bg-gray-600 opacity-50 my-1 w-full"></div>
+      <NavLinksLifeCycle />
+      <div className="h-px bg-gray-600 opacity-50 my-1 w-full"></div>
+     
 
-      <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
-        <NavLinks />
-        <div className="hidden h-auto w-full grow rounded-md bg-gray-50 md:block"></div>
-
-      </div>
     </div>
+  </div>
   );
 }
