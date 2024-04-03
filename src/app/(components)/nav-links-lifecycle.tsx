@@ -9,7 +9,6 @@ const links = [
   { name: 'Hocs', href: '/ui_engineering/lifecycle/hocs'},
   { name: 'Hooks', href: '/ui_engineering/lifecycle/hooks'},
   { name: 'Lifecycles', href: '/ui_engineering/lifecycle/lifecycle_component'},
-  { name: 'Redux', href: '/ui_engineering/lifecycle/redux'},
 
 ];
 
