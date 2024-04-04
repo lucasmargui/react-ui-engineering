@@ -277,12 +277,21 @@ Components that wrap around other components to provide additional functionality
 Allows you to use state and other React features without writing a class.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/df92c25a-c38f-4a08-b544-35e834d76e9d)
+
+
+    
   </details>
   
 ### Lifecycles
 ComponentDidMount, ComponentDidUpdate, componentWillUnmount, etc.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/c2abe1d0-ef83-43d4-a0b4-d7b186209caf)
+
+    
   </details>
   
 ## WebPerformance
