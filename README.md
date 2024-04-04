@@ -185,6 +185,12 @@ Store data locally in the user's browser.
 Allow persistent local storage of data in the browser.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/c9bd71c6-911c-4fa2-b9d5-82e5e9ca5539)
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/bc1f9044-3694-424b-8fe6-7e094e95d76e)
+
+    
   </details>
   
 ## Lifecycle
