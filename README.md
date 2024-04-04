@@ -135,6 +135,31 @@ Access the user's location through the browser.
 A NoSQL database API that operates in the browser.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/fc0b83c4-6b8a-4530-8f39-ed542e81af18)
+
+  #### Interface Definitions:
+  
+  - Item: An interface representing the structure of an item. It has two properties: id of type number and name of type string.
+  
+  - MyDB: An interface extending DBSchema. It specifies the schema for the database, including the structure of the 'items' store and its indexes.
+    
+ #### Component Setup:
+  
+  - IndexedDBExample: This is a functional component. It sets up state variables items and itemName using the useState hook. items will hold an array of Item objects, and itemName will hold the name of the item being added.
+ 
+  - fetchItems: This asynchronous function is responsible for fetching items from IndexedDB when the component mounts. It opens the database, retrieves items from the 'items' store, and sets them using setItems.
+  
+  - useEffect: This hook calls fetchItems when the component mounts, ensuring that items are fetched once the component is rendered.
+   
+ #### Database Operations:
+ 
+  - addItem: This asynchronous function adds a new item to the database. It first checks if the itemName is not empty. Then, it opens the database, starts a transaction on the 'items' store with read-write access, creates a new item object with the provided name (and auto-generated id by IndexedDB), adds it to the store using store.add, and then calls fetchItems to update the item list displayed in the component.
+  
+#### Error Handling:
+
+ - Errors that occur during database operations are caught using try...catch blocks and logged to the console.
+    
   </details>
   
 ### SessionStorage
