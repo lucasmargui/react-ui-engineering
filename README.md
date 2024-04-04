@@ -16,9 +16,23 @@ Internal functions that have access to external scope variables even after execu
   <details>
     
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/c86f6291-d334-4b51-856a-4644676353d0)
+  
+
+  Example 4: Passing data to child components
+  ```
+  const ChildComponent: React.FC <{ onMessageChange: (message: string) => void }> = ({ onMessageChange }) => {
+  ```
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/4cd6a8a0-d189-42c8-b7c6-2555d1aa2333)
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/43974eeb-5051-4755-ac2a-cc5d112b667c)
+
+
 
   <summary>Clique para mostrar conteúdo</summary>
   </details>
+
+ 
   
 ### EventEmitter
 Implement a custom event system for communication between components or modules.
