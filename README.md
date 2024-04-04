@@ -14,6 +14,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Closures
 Internal functions that have access to external scope variables even after execution of the external function has completed
   <details>
+    
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/c86f6291-d334-4b51-856a-4644676353d0)
+
   <summary>Clique para mostrar conteúdo</summary>
   </details>
   
