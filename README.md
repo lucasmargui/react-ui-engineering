@@ -96,6 +96,9 @@ Functions that accept other functions as arguments or return functions.
 Handle asynchronous operations in a cleaner and more readable way.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+    
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/6548727c-b9e6-4f85-ac45-b2fa6a2125e2)
+
   </details>
   
 ### PrototypeInheritance
