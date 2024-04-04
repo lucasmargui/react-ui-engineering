@@ -300,6 +300,10 @@ ComponentDidMount, ComponentDidUpdate, componentWillUnmount, etc.
 Divide the application code into smaller parts and load only what is necessary for each part of the application, improving initial loading time.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/5c4934be-2665-497a-8023-272524ab2688)
+
+    
   </details>
   
 ### LazyLoading
