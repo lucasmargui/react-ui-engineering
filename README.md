@@ -105,6 +105,9 @@ Handle asynchronous operations in a cleaner and more readable way.
 Understand how prototypes and inheritance work in JavaScript.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+    
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/7d18551d-6554-42b5-a4b3-ec9aff611702)
+
   </details>
   
 ## Browser Api
