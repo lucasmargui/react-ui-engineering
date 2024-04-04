@@ -116,12 +116,19 @@ Understand how prototypes and inheritance work in JavaScript.
 Make Fetch requests.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+    
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/4afb4551-5af1-43e4-a693-8a07f2a049e3)
+
   </details>
   
 ### GeoLocation
 Access the user's location through the browser.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/d8fd760f-c839-4d64-b8e4-b5a2aa6b7216)
+
+    
   </details>
   
 ### IndexedDb
