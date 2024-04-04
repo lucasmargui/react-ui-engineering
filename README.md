@@ -199,6 +199,34 @@ Allow persistent local storage of data in the browser.
 Global application state management.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/eb8e91dd-4205-47b6-afe1-6052af0c7737)
+
+  - interface AuthContextType { ... }: This defines an interface AuthContextType which describes the shape of the authentication context. It specifies that the context will have three properties: isLoggedIn of type boolean, login and logout both of which are functions with no arguments and no return value.
+
+  - export const AuthContext = createContext<AuthContextType | undefined>(undefined);: This line creates an authentication context using createContext. It initializes it with an initial value of undefined, and it's typed to adhere to the AuthContextType interface or undefined.
+
+  - export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) => { ... }: This is a functional component named AuthProvider. It accepts children as props, which are of type ReactNode. It wraps its children with the AuthContext.Provider.
+
+  - const [isLoggedIn, setIsLoggedIn] = useState(false);: This line initializes a state variable isLoggedIn using the useState hook. It's initialized with a value of false, indicating that the user is not logged in by default.
+
+  - const login = () => { setIsLoggedIn(true); };: This function sets the isLoggedIn state to true, simulating a login action.
+
+  - const logout = () => { setIsLoggedIn(false); };: This function sets the isLoggedIn state to false, simulating a logout action.
+
+  - <AuthContext.Provider value={{ isLoggedIn, login, logout }}> ... </AuthContext.Provider>: This line renders the AuthProvider component with the authentication context provider. It provides the context value with the isLoggedIn state, login, and logout functions to its children components.
+
+    ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/392ed93d-4a9e-4b6d-aa84-617f75523c2c)
+
+  - const authContext = useContext(AuthContext);: This line uses the useContext hook to get the current context value from the AuthContext. The AuthContext presumably provides information about whether the user is logged in or not, along with functions for logging in and out.
+
+  - if (!authContext) { throw new Error("useAuth must be used within an AuthProvider"); }: This line checks if the authContext is null or undefined. If it is, it throws an error indicating that useAuth must be used within an AuthProvider. This is a safety check to ensure that the component is being used within the appropriate context.
+
+  - const { isLoggedIn, login, logout } = authContext;: This line destructures the authContext object to extract the isLoggedIn boolean value, login function, and logout function.
+
+  - The return statement renders a div containing a button. If isLoggedIn is true, it renders a "Logout" button with an onClick handler set to the logout function. If isLoggedIn is false, it renders a "Login" button with an onClick handler set to the login function.
+
+    
   </details>
   
 ### Hocs
