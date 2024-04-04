@@ -313,9 +313,9 @@ Load images on demand, especially those below the page fold, to speed up initial
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/65be6ba3-fb36-47a8-a09c-cc3c54dfd601)
 
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/b80fa0fd-90bf-4c33-8f12-7d4f5ffcf7f4)
 
-  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/92177f44-d369-4fcb-8db1-9ab3fc5b7ebd)
-
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/642eec53-0490-4a47-b51e-58bfdd9bd009)
     
   </details>
   
