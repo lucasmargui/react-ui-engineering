@@ -38,6 +38,13 @@ Internal functions that have access to external scope variables even after execu
 Implement a custom event system for communication between components or modules.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/860e6f8e-c77e-4735-9957-df0d9c519b9a)
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/2d8c11cd-255a-458f-8e91-5a9edcad6d2e)
+
+
+    
   </details>
   
 ### HighOrder
