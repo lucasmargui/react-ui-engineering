@@ -166,6 +166,19 @@ A NoSQL database API that operates in the browser.
 Store data locally in the user's browser.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/58300cc5-85c8-4691-a1d1-36e23b515c8c)
+
+  - Two state variables localStorageValue and sessionStorageValue are initialized using the useState hook. These variables will hold the values retrieved from local storage and session storage respectively.
+
+  - The useEffect hook is used to retrieve values from local storage and session storage when the component mounts. It runs once when the component mounts because of the empty dependency array [].
+
+  - Two event handler functions handleLocalStorageChange and handleSessionStorageChange are defined to handle changes in the input fields for local storage and session storage respectively. These functions update the state variables and also update the corresponding storage items using localStorage.setItem and sessionStorage.setItem.
+
+  - The component returns JSX containing two input fields for local storage and session storage, along with their corresponding headings (<h2> tags).
+
+  - Below the input fields, the component displays the current values of local storage and session storage using <h1> tags.
+    
   </details>
   
 ### WebStorage
