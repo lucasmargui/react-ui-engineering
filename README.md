@@ -319,10 +319,34 @@ Load images on demand, especially those below the page fold, to speed up initial
     
   </details>
   
-### Memorization
+### Memoization
 Use techniques like Memorization to avoid recalculating parts of the UI that don't change frequently.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/8ea9ac07-64a7-4281-bc79-7c30f616b21f)
+
+  - This component is defined as a functional component (React.FC).
+  - It receives a prop named data, which is a number.
+  - Inside the component, there's a function called expensiveCalculation, which simulates a computationally expensive operation by performing a loop with a large number of iterations.
+  - The result of this expensive calculation is memoized using the useMemo hook, which ensures that the calculation is only performed when the data prop changes.
+  - The component renders the value of data and the memoized result of the expensive calculation.
+
+   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/e0b46111-0031-49b8-a38d-0e1b713a6b7d)
+
+  - number represents the number entered by the user.
+  - inc represents the number of times the component has re-rendered due to button clicks.
+  - The factorial variable holds the factorial of the number state. It uses useMemo to memoize the factorial calculation, recalculating only when the number state changes.
+  - onChange: It updates the number state when the value in the input field changes.
+  - onClick: It increments the inc state when the button is clicked.
+  - The JSX returned by the component displays an input field for entering the number, the calculated factorial, a button to trigger re-rendering, and a counter showing the number of times the component has re-rendered.
+
+   
+   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/ffc1a3fb-67ef-4c47-a25b-8a88f255d0d9)
+   
+
+
+
   </details>
   
 ### Minification
