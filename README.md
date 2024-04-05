@@ -351,14 +351,33 @@ Use techniques like Memorization to avoid recalculating parts of the UI that don
   
 ### Minification
 Reduce the size of JavaScript and CSS files by removing whitespace and comments, and combining multiple files into one to reduce the number of HTTP requests.
-  <details>
-  <summary>Clique para mostrar conteúdo</summary>
-  </details>
-  
+
+
 ### ServerSide
 Render content server-side before sending it to the browser, reducing rendering time on the client.
   <details>
   <summary>Clique para mostrar conteúdo</summary>
+
+
+  #### backend
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/5aaba5bf-3e95-4865-a225-3b8377f73f38)
+
+  
+  #### fetch data
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/3953d35a-4645-4a12-81ce-52c66e4381db)
+
+  
+  #### reduce client side
+
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/5c4934be-2665-497a-8023-272524ab2688)
+  
+  #### sensitive data
+  
+  ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/8dcd21e0-c1d5-4f11-92eb-f241a9bfa11a)
+
+    
   </details>
 
 
