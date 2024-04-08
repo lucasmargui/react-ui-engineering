@@ -30,7 +30,7 @@ Internal functions that have access to external scope variables even after execu
 
 
 
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
   </details>
 
  
@@ -38,7 +38,7 @@ Internal functions that have access to external scope variables even after execu
 ### EventEmitter
 Implement a custom event system for communication between components or modules.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/860e6f8e-c77e-4735-9957-df0d9c519b9a)
 
@@ -51,7 +51,7 @@ Implement a custom event system for communication between components or modules.
 ### HighOrder
 Functions that accept other functions as arguments or return functions.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
     
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/9cc243f8-7168-4403-9376-d060404a3ec2)
 
@@ -96,7 +96,7 @@ Functions that accept other functions as arguments or return functions.
 ### PromiseAsync
 Handle asynchronous operations in a cleaner and more readable way.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
     
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/6548727c-b9e6-4f85-ac45-b2fa6a2125e2)
 
@@ -105,7 +105,7 @@ Handle asynchronous operations in a cleaner and more readable way.
 ### PrototypeInheritance
 Understand how prototypes and inheritance work in JavaScript.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
     
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/7d18551d-6554-42b5-a4b3-ec9aff611702)
 
@@ -116,7 +116,7 @@ Understand how prototypes and inheritance work in JavaScript.
 ### FetchApi
 Make Fetch requests.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
     
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/4afb4551-5af1-43e4-a693-8a07f2a049e3)
 
@@ -125,7 +125,7 @@ Make Fetch requests.
 ### GeoLocation
 Access the user's location through the browser.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>CClick to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/d8fd760f-c839-4d64-b8e4-b5a2aa6b7216)
 
@@ -135,7 +135,7 @@ Access the user's location through the browser.
 ### IndexedDb
 A NoSQL database API that operates in the browser.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/fc0b83c4-6b8a-4530-8f39-ed542e81af18)
 
@@ -166,7 +166,7 @@ A NoSQL database API that operates in the browser.
 ### SessionStorage
 Store data locally in the user's browser.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/58300cc5-85c8-4691-a1d1-36e23b515c8c)
 
@@ -185,7 +185,7 @@ Store data locally in the user's browser.
 ### WebStorage
 Allow persistent local storage of data in the browser.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/c9bd71c6-911c-4fa2-b9d5-82e5e9ca5539)
 
@@ -199,7 +199,7 @@ Allow persistent local storage of data in the browser.
 ### ContextApi
 Global application state management.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/eb8e91dd-4205-47b6-afe1-6052af0c7737)
 
@@ -271,13 +271,13 @@ Components that wrap around other components to provide additional functionality
   ```
 
    This line renders the WrappedComponent by spreading all the props (this.props) onto it, and it explicitly asserts the type of these props as P.
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
   </details>
   
 ### Hooks
 Allows you to use state and other React features without writing a class.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/df92c25a-c38f-4a08-b544-35e834d76e9d)
 
@@ -288,7 +288,7 @@ Allows you to use state and other React features without writing a class.
 ### Lifecycles
 ComponentDidMount, ComponentDidUpdate, componentWillUnmount, etc.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/c2abe1d0-ef83-43d4-a0b4-d7b186209caf)
 
@@ -300,7 +300,7 @@ ComponentDidMount, ComponentDidUpdate, componentWillUnmount, etc.
 ### CodeSplitting
 Divide the application code into smaller parts and load only what is necessary for each part of the application, improving initial loading time.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/5c4934be-2665-497a-8023-272524ab2688)
 
@@ -310,7 +310,7 @@ Divide the application code into smaller parts and load only what is necessary f
 ### LazyLoading
 Load images on demand, especially those below the page fold, to speed up initial load times.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/65be6ba3-fb36-47a8-a09c-cc3c54dfd601)
 
@@ -323,7 +323,7 @@ Load images on demand, especially those below the page fold, to speed up initial
 ### Memoization
 Use techniques like Memorization to avoid recalculating parts of the UI that don't change frequently.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
   ![image](https://github.com/lucasmargui/React_UI_Engineering/assets/157809964/8ea9ac07-64a7-4281-bc79-7c30f616b21f)
 
@@ -357,7 +357,7 @@ Reduce the size of JavaScript and CSS files by removing whitespace and comments,
 ### ServerSide
 Render content server-side before sending it to the browser, reducing rendering time on the client.
   <details>
-  <summary>Clique para mostrar conteúdo</summary>
+  <summary>Click to show content</summary>
 
 
   #### backend
